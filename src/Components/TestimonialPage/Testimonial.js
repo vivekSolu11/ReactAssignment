@@ -18,8 +18,8 @@ const Testimonial = () => {
                     </div>
                 </div>
             </section>
-             <ClientSection/>      
-            <FooterSection/>
+            <ClientSection />
+            <FooterSection />
         </div>
     );
 }

@@ -25,12 +25,17 @@ const ProductSection = () => {
                     </h2>
                 </div>
                 <div className="row">
-                    {productDetails.map((product, index) => (
-                        <ProductCard key={index}
+                    {productDetails.map((product, index) => {
+                        const productPath = product.image;
+                        return (<ProductCard key={index}
                             itemName={product.name}
-                            image={product.image}
+                            image={<img src={productPath || require("./../../../assests/images/p2.png")} alt="productimage" />}
+                            // <img src={require("./../../../assests/images/p1.png")} alt="productimage" />
                             cost={product.cost} />
-                    ))}
+
+
+                        )
+                    })}
                 </div>
             </div>
             <div className="btn-box">

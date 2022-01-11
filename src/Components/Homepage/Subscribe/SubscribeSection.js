@@ -14,10 +14,10 @@ const SubscribeSection = () => {
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                                 <form action="">
-                                    <input type="email" placeholder="Enter your email"/>
-                                        <button>
-                                            subscribe
-                                        </button>
+                                    <input type="email" placeholder="Enter your email" />
+                                    <button>
+                                        subscribe
+                                    </button>
                                 </form>
                             </div>
                         </div>

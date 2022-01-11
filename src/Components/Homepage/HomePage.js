@@ -8,20 +8,20 @@ import ProductSection from "./Product/ProductSection";
 import SubscribeSection from "./Subscribe/SubscribeSection";
 import WhySection from "./WhyShopSection/WhySection";
 
-const Homepage = () =>{
-return(
-   <div>
-       <Header/>
-       <Banner/>
-       <WhySection/>
-       <ArrivalSection/>
-       <ProductSection/>
-       <SubscribeSection/>
-       <ClientSection/>
-       <Footer/>
+const Homepage = () => {
+    return (
+        <div>
+            <Header />
+            <Banner />
+            <WhySection />
+            <ArrivalSection />
+            <ProductSection />
+            <SubscribeSection />
+            <ClientSection />
+            <Footer />
 
-   </div>
-)
+        </div>
+    )
 }
 
 export default Homepage;

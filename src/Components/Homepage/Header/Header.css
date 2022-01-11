@@ -14,10 +14,11 @@ Nav {
   padding-top: 7px;
 }
 
-.nav-link:focus, .nav-link:hover {
-    color: #c7130d !important;
+.nav-link:focus,
+.nav-link:hover {
+  color: #c7130d !important;
 }
 
 .navbar-toggler {
-background-color: #afa5a6 !important;
+  background-color: #afa5a6 !important;
 }

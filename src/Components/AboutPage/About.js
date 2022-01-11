@@ -20,8 +20,8 @@ const About = () => {
                 </div>
             </section>
             <WhySection />
-            <ArrivalSection/>
-            <FooterSection/>
+            <ArrivalSection />
+            <FooterSection />
         </div>
     );
 }

@@ -18,8 +18,8 @@ const Blog = () => {
                     </div>
                 </div>
             </section>
-            <WhySection />           
-            <FooterSection/>
+            <WhySection />
+            <FooterSection />
         </div>
     );
 }

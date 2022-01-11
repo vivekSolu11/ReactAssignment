@@ -1,18 +1,18 @@
-p{
-    margin-top: 20px;
-margin-bottom: 30px;
-}
-
-.arrivalBanner{
-    max-width: 590px;
-    width: 100%;
+p {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .arrivalBanner {
-    max-width: 358px;
-    width: 100%;
+  max-width: 590px;
+  width: 100%;
 }
 
-.newArrival{
-    padding: 110px;
+.arrivalBanner {
+  max-width: 358px;
+  width: 100%;
+}
+
+.newArrival {
+  padding: 110px;
 }

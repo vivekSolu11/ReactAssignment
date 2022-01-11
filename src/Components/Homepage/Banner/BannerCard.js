@@ -9,13 +9,13 @@ const BannerCard = (props) => {
                         <div className="detail-box">
                             <h1>
                                 <span>
-                                   {props.sale}
+                                    {props.sale}
                                 </span>
                                 <br />
                                 {props.store}
                             </h1>
                             <p>
-                               {props.description}
+                                {props.description}
                             </p>
                             <div className="btn-box">
                                 <a href="/" className="btn1">
