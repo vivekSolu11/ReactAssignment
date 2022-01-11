@@ -1,0 +1,10 @@
+Nav{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 1rem;
+}
+
+.logo{
+    max-width: 250px;
+    width: 100%;
+}
