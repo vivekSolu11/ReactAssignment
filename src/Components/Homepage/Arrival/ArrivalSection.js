@@ -4,10 +4,10 @@ import './ArrivalSection.css'
 const ArrivalSection = () => {
     return (
         
-            <div className="container arrival_section">
+            <div className=" arrival_section">
                 <div className=" row">
                     <div className=" col-lg-4 offset-lg-1">
-                        <img src={require("./../../assests/images/arrival-bg.png")} alt="banner" className='arrivalBanner' />
+                        <img src={require("./../../../assests/images/arrival-bg.png")} alt="banner" className='arrivalBanner' />
                     </div>
                     <div className='col-lg-6 newArrival'>
                   

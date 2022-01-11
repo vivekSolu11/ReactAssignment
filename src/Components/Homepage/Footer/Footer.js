@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container footercon">
         <div className="row footer">
           <div className="col-lg-4 col-md-4 footerrow1">
-            <img src={require("./../../assests/images/logo.png")} alt="logo" className='fotterLogo' />
+            <img src={require("./../../../assests/images/logo.png")} alt="logo" className='fotterLogo' />
             <div  >
               <div className="well">
                 <ul>
@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-2 col-md-2">
-            <h3
+            <h3 role={"menuitem"}
               data-toggle="collapse"
               data-target="#collapseExample1"
               aria-expanded="false"
@@ -100,7 +100,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4">
-            <h3
+            <h3 role={"menuitem"}
               data-toggle="collapse"
               data-target="#collapseExample2"
               aria-expanded="false"

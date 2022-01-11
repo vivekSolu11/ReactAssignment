@@ -1,5 +1,5 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
+import axiosMain from "../../../http/axios/axios_main";
 import ProductCard from "./ProductCard";
 
 const ProductSection = () => {
@@ -7,7 +7,7 @@ const ProductSection = () => {
     const [productDetails, setProductDetails] = useState([]);
 
     const productDetailsApiCall = async () => {
-        const response = await axios.get("http://localhost:3000/item")
+        const response = await axiosMain.get(`/item`)
         console.log("data", response.data);
         setProductDetails(response.data);
     }
@@ -25,10 +25,10 @@ const ProductSection = () => {
                     </h2>
                 </div>
                 <div className="row">
-                    {productDetails.map((product,index) => (
+                    {productDetails.map((product, index) => (
                         <ProductCard key={index}
                             itemName={product.name}
-                            image=""
+                            image={product.image}
                             cost={product.cost} />
                     ))}
                 </div>

@@ -1,0 +1,20 @@
+Nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.logo {
+  max-width: 250px;
+  width: 100%;
+}
+
+.nav-link {
+  color: #212529 !important;
+  padding-top: 7px;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #c7130d !important;
+}
+

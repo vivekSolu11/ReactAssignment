@@ -2,16 +2,16 @@ import React from "react";
 
 const ClientCarousel = (props) =>{
     return(
-      <div class="carousel-item">
-      <div class="box col-lg-10 mx-auto">
-         <div class="img_container">
-            <div class="img-box">
-               <div class="img_box-inner">
-                  <img src={require("../../assests/images/client.jpg")} alt=""/>
+      <div className="carousel-item">
+      <div className="box col-lg-10 mx-auto">
+         <div className="img_container">
+            <div className="img-box">
+               <div className="img_box-inner">
+                  <img src={require("../../../assests/images/client.jpg")} alt=""/>
                </div>
             </div>
          </div>
-         <div class="detail-box">
+         <div className="detail-box">
             <h5>
               {props.name}
             </h5>

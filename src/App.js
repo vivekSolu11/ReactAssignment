@@ -1,27 +1,30 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 import './assests/css/style.css';
+import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
-import Banner from './Components/Banner/Banner';
-import WhySection from './Components/WhyShopSection/WhySection';
-import ArrivalSection from './Components/Arrival/ArrivalSection';
-import SubscribeSection from './Components/Subscribe/SubscribeSection';
-import ProductSection from './Components/Product/ProductSection';
-import ClientSection from './Components/Client/ClientSection';
+import Homepage from './Components/Homepage/HomePage';
+import About from './Components/AboutPage/About';
+import Product from './Components/ProductPage/Product';
+import Blog from './Components/BlogPage/Blog';
+import Testimonial from './Components/TestimonialPage/Testimonial';
+import Contact from './Components/ContactPage/Contact';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
-    <Header/> 
-    <Banner/>
-    <WhySection/>
-    <ArrivalSection/>
-    <ProductSection/>
-    <SubscribeSection/>
-    <ClientSection/>
-    <Footer/>
-      </div>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Homepage />}></Route>
+          <Route exact path="/about" element={<About/>}></Route>
+          <Route eaxct path="/product" element={<Product/>}></Route>
+          <Route eaxct path="/blog" element={<Blog/>}></Route>
+          <Route eaxct path="/testimonial" element={<Testimonial/>}></Route>
+          <Route eaxct path="/contact" element={<Contact/>}></Route>
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
