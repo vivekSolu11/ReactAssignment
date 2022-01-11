@@ -1,0 +1,87 @@
+{
+  "item": [
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    },
+    {
+      "name": "Men's Shirt",
+      "image": "C:/Users/Otaku/Documents/users-api-server/images/p1.png",
+      "cost": "$95"
+    }
+  ],
+
+  "testimonial": [
+    { "image":"",
+      "name": "Anna Trevor",
+      "type": "customer",
+      "review": "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat."
+    },
+    { "image":"",
+      "name": "Anna Trevor",
+      "type": "customer",
+      "review": "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat."
+    },
+    { "image":"",
+      "name": "Anna Trevor",
+      "type": "customer",
+      "review": "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat."
+    },
+    { "image":"",
+      "name": "Anna Trevor",
+      "type": "customer",
+      "review": "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat."
+    }
+  ]
+}
