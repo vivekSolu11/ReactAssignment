@@ -1,6 +1,11 @@
-.App {
+.App { 
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
-
+::-webkit-scrollbar{
+  width: 2px;
+  color: rgb(131, 20, 20);
+}

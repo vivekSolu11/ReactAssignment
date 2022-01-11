@@ -2,12 +2,14 @@
 
 * {
   box-sizing: border-box;
+
 }
 body {
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
 }
 
 .layout_padding {

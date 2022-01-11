@@ -81,7 +81,7 @@ footer h3 {
   }
   footer h3:after {
     font-family: "ElegantIcons";
-    /* content: "\4c"; */
+   
     width: 20px;
     display: block;
     float: right;
@@ -185,7 +185,7 @@ ul.footer-selector li {
   }
 }
 
-/* Addtional links Footer */
+
 ul.additional_links {
   margin: 0;
   padding: 8px 0 0 0;
